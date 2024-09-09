@@ -1,11 +1,25 @@
-// Create a new <h1> element
-const h1 = document.createElement('h1');
-        
-// Set the text content of the <h1> element
-h1.textContent = 'Hello, React!';
+/* Challenge: 
 
-// Get the element with id "root"
-const root = document.getElementById('root');
+Create a navbar in JSX:
+    - Use the semantic `nav` element as the parent wrapper
+    - Have an h1 element with the brand name of your "website"
+    - Insert an unordered list for the other nav elements
+        - Inside the `ul`, have three `li`s for "Pricing",
+        "About", and "Contact"
+    - Don't worry about styling yet - it'll just be plain-looking HTML for now
+*/
+const navBar=(
+<nav>
+<h1>Jawad Hussain</h1>
+<ul>
+    <li>Menu</li>
+    <li>About</li>
+    <li>Contact</li>
+</ul>
+</nav>
+)
 
-// Append the <h1> element to the "root" element
-root.appendChild(h1);
+ReactDOM.render(
+    navBar,
+    document.getElementById("root")
+)
