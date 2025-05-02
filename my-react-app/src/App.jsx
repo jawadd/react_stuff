@@ -7,11 +7,16 @@ import Hero from "./components/Hero"
 function App() {
  
   return (
-    <div className="container">
-        <Navbar />
-        <Hero />
+    <h1>Hello World</h1>
+
+
+    // <div className="container">
+    //     {
+    //     <App />
+    //     /* <Navbar />
+    //     <Hero /> */}
       
-          </div>
+    //       </div>
 )
   
 }
